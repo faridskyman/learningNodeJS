@@ -1,0 +1,65 @@
+:: basic tutorial
+    https://www.youtube.com/watch?v=TlB_eWDSMt4?t=31:20 >> 31:20
+:: 8hr tutorial
+    https://www.youtube.com/watch?v=Oe421EPjeBE
+:: Udemy
+    https://www.udemy.com/course/understand-nodejs/learn/lecture/
+
+:: jshint
+used to syntax check the code
+    You may install it globally using the following command:
+    > npm install -g jshint
+    After this, you can use the jshint command-line interface.
+    To use type the following in terminal (where app.js is the name of your file)
+    > jshint .\app.js
+
+
+:: node.js useful modules
+  * https (create web servers)
+  * filesystem
+  * OS (work with OS)
+  * path (for file path info)
+  * process (to get active process info)
+  * querystring
+  * stream
+  * ...
+
+:: semver.org
+    the idea of versioning of applic.
+
+:: packages
+    > npm -v
+    is a tool, give u version of ur npm and also shows if its available
+    npm is also a registry npmjs.com
+    
+    creates a manifest to keep track of packages and version used
+    > add npm init
+    
+    install depedancies from package.json
+    > npm install
+
+    update all modules
+    > npm update
+
+    install module globally
+    > npm install -g
+
+    useful modules for development.
+    - nodeMon > 
+        > nodemon app.js
+        monitor when there is a change at our code, when there is a change, it will cancel the current and it will rerun node.
+        good so we dont need to keep running node command many time. (good for development, helps to stop and restart node.)
+    - jasmine-node > to run test
+
+:: using Express.js
+    https://expressjs.com/en/guide/routing.html
+    pretty good guide, what you would expect that any web routing engine shoudl do
+
+:: middleware
+    https://expressjs.com/en/resources/middleware.html
+    - cookie-session	Establish cookie-based sessions.
+    - passport	Authentication using “strategies” such as OAuth, OpenID and many others. See http://passportjs.org/ for more information.
+
+:: using templates
+    https://expressjs.com/en/guide/using-template-engines.html    
+    ejs >> ejs.co (inspired by .net web form.)
